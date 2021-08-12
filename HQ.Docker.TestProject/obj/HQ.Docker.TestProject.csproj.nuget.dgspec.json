@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\dockerPro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj": {}
+    "D:\\Projects\\dockerPro\\dockerpro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\dockerPro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj": {
+    "D:\\Projects\\dockerPro\\dockerpro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\dockerPro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj",
+        "projectUniqueName": "D:\\Projects\\dockerPro\\dockerpro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj",
         "projectName": "HQ.Docker.TestProject",
-        "projectPath": "D:\\Projects\\dockerPro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj",
+        "projectPath": "D:\\Projects\\dockerPro\\dockerpro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj",
         "packagesPath": "C:\\Users\\beaut\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\dockerPro\\HQ.Docker.TestProject\\obj\\",
+        "outputPath": "D:\\Projects\\dockerPro\\dockerpro\\HQ.Docker.TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\beaut\\AppData\\Roaming\\NuGet\\NuGet.Config",

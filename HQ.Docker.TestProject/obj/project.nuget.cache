@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDqF5ndTfROPjpT/akFmZHBp+hTQ8+tohBlNj05pMQIUn8ZM2PLL49TYjDkaCFnafQZt06+l9Oeb7NkkiO60yQ==",
+  "dgSpecHash": "vPlSEwGb+dNI93SlRdjUDELjvp7rX6NJLI/ks3vVAA0ti34q54qjwYQWXjntwxp0hUPVg3TXJ/6PXobWAqYTdQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\dockerPro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj",
+  "projectFilePath": "D:\\Projects\\dockerPro\\dockerpro\\HQ.Docker.TestProject\\HQ.Docker.TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\beaut\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\beaut\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
