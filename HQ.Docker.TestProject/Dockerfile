@@ -4,7 +4,6 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
-
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["HQ.Docker.TestProject/HQ.Docker.TestProject.csproj", "HQ.Docker.TestProject/"]
@@ -12,10 +11,8 @@ RUN dotnet restore "HQ.Docker.TestProject/HQ.Docker.TestProject.csproj"
 COPY . .
 WORKDIR "/src/HQ.Docker.TestProject"
 RUN dotnet build "HQ.Docker.TestProject.csproj" -c Release -o /app/build
-
 FROM build AS publish
 RUN dotnet publish "HQ.Docker.TestProject.csproj" -c Release -o /app/publish
-
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
